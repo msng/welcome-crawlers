@@ -32,7 +32,7 @@ class WelcomeCrawlers {
     public static function customAdminHeader()
     {
         echo "\n";
-//        echo '<link rel="stylesheet" href="' . self::$pluginUrl . '/css/welcome-crawlers.css" />' . "\n";
+        echo '<link rel="stylesheet" href="' . self::$pluginUrl . '/css/welcome-crawlers.css" />' . "\n";
         echo '<script src="' . self::$pluginUrl . '/js/welcome-crawlers.js" />' . "\n";
     }
 }
